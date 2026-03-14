@@ -1,0 +1,133 @@
+Dependencies for Project 'KeyStateMachine', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup_stm32f10x_hd.s)(0x54B0B2EE)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I"D:\Application software\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"--pd "__UVISION_VERSION SETA 538" --pd "STM32F10X_HD SETA 1"--list ..\out\startup_stm32f10x_hd.lst --xref -o ..\out\startup_stm32f10x_hd.o --depend ..\out\startup_stm32f10x_hd.d)
+F (.\main.c)(0x6757100D)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\kernel -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart-I"D:\Application software\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-D__UVISION_VERSION="538" -DSTM32F10X_HD -DSTM32F10x_HD-o ..\out\main.o --omf_browse ..\out\main.crf --depend ..\out\main.d)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F1)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\SYSTEM\delay\delay.h)(0x555AC61F)
+I (..\app\app_led.h)(0x6755A4CC)
+I (..\driver\gpio.h)(0x67558A82)
+I (..\kernel\dda_kernel.h)(0x6757073C)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\app\app_softTimer.h)(0x67570699)
+I (..\app\app_timer.h)(0x6700F3C2)
+I (..\driver\timer.h)(0x67551E8F)
+I (..\app\app_keyStateMachine.h)(0x67558BB1)
+F (..\app\app_key.c)(0x67505EFB)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\kernel -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart-I"D:\Application software\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-D__UVISION_VERSION="538" -DSTM32F10X_HD -DSTM32F10x_HD-o ..\out\app_key.o --omf_browse ..\out\app_key.crf --depend ..\out\app_key.d)
+I (..\app\app_key.h)(0x67505EFB)
+I (..\driver\gpio.h)(0x67558A82)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\kernel\dda_kernel.h)(0x6757073C)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\SYSTEM\delay\delay.h)(0x555AC61F)
+F (..\app\app_softTimer.c)(0x67570DEC)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\kernel -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart-I"D:\Application software\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-D__UVISION_VERSION="538" -DSTM32F10X_HD -DSTM32F10x_HD-o ..\out\app_softtimer.o --omf_browse ..\out\app_softtimer.crf --depend ..\out\app_softtimer.d)
+I (..\app\app_softTimer.h)(0x67570699)
+I (..\app\app_timer.h)(0x6700F3C2)
+I (..\driver\timer.h)(0x67551E8F)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\kernel\dda_kernel.h)(0x6757073C)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F1)
+F (..\app\app_timer.c)(0x6755093F)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\kernel -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart-I"D:\Application software\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-D__UVISION_VERSION="538" -DSTM32F10X_HD -DSTM32F10x_HD-o ..\out\app_timer.o --omf_browse ..\out\app_timer.crf --depend ..\out\app_timer.d)
+I (..\app\app_timer.h)(0x6700F3C2)
+I (..\driver\timer.h)(0x67551E8F)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\kernel\dda_kernel.h)(0x6757073C)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+F (..\app\app_keyStateMachine.c)(0x67570FB9)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\kernel -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart-I"D:\Application software\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-D__UVISION_VERSION="538" -DSTM32F10X_HD -DSTM32F10x_HD-o ..\out\app_keystatemachine.o --omf_browse ..\out\app_keystatemachine.crf --depend ..\out\app_keystatemachine.d)
+I (..\app\app_keyStateMachine.h)(0x67558BB1)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\kernel\dda_kernel.h)(0x6757073C)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\app\app_key.h)(0x67505EFB)
+I (..\driver\gpio.h)(0x67558A82)
+I (..\app\app_softTimer.h)(0x67570699)
+I (..\app\app_timer.h)(0x6700F3C2)
+I (..\driver\timer.h)(0x67551E8F)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F1)
+F (..\app\app_led.c)(0x6755A6CF)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\kernel -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart-I"D:\Application software\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-D__UVISION_VERSION="538" -DSTM32F10X_HD -DSTM32F10x_HD-o ..\out\app_led.o --omf_browse ..\out\app_led.crf --depend ..\out\app_led.d)
+I (..\app\app_led.h)(0x6755A4CC)
+I (..\driver\gpio.h)(0x67558A82)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\kernel\dda_kernel.h)(0x6757073C)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\app\app_softTimer.h)(0x67570699)
+I (..\app\app_timer.h)(0x6700F3C2)
+I (..\driver\timer.h)(0x67551E8F)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F1)
+F (..\driver\timer.c)(0x67551EFD)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\kernel -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart-I"D:\Application software\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-D__UVISION_VERSION="538" -DSTM32F10X_HD -DSTM32F10x_HD-o ..\out\timer.o --omf_browse ..\out\timer.crf --depend ..\out\timer.d)
+I (..\driver\timer.h)(0x67551E8F)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\kernel\dda_kernel.h)(0x6757073C)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+F (..\driver\gpio.c)(0x67558A6E)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\kernel -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart-I"D:\Application software\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-D__UVISION_VERSION="538" -DSTM32F10X_HD -DSTM32F10x_HD-o ..\out\gpio.o --omf_browse ..\out\gpio.crf --depend ..\out\gpio.d)
+I (..\driver\gpio.h)(0x67558A82)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\kernel\dda_kernel.h)(0x6757073C)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\SYSTEM\delay\delay.h)(0x555AC61F)
+F (..\kernel\dda_kernel.c)(0x66E8CDFA)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\kernel -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart-I"D:\Application software\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-D__UVISION_VERSION="538" -DSTM32F10X_HD -DSTM32F10x_HD-o ..\out\dda_kernel.o --omf_browse ..\out\dda_kernel.crf --depend ..\out\dda_kernel.d)
+I (..\kernel\dda_kernel.h)(0x6757073C)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdlib.h)(0x60252374)
+F (..\SYSTEM\delay\delay.c)(0x555AC5E1)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\kernel -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart-I"D:\Application software\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-D__UVISION_VERSION="538" -DSTM32F10X_HD -DSTM32F10x_HD-o ..\out\delay.o --omf_browse ..\out\delay.crf --depend ..\out\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x555AC61F)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\SYSTEM\sys\sys.c)(0x550EB960)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\kernel -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart-I"D:\Application software\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-D__UVISION_VERSION="538" -DSTM32F10X_HD -DSTM32F10x_HD-o ..\out\sys.o --omf_browse ..\out\sys.crf --depend ..\out\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\SYSTEM\usart\usart.c)(0x550EB9F1)(--gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\app -I ..\driver -I ..\kernel -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart-I"D:\Application software\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-D__UVISION_VERSION="538" -DSTM32F10X_HD -DSTM32F10x_HD-o ..\out\usart.o --omf_browse ..\out\usart.crf --depend ..\out\usart.d)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F1)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (D:\Application software\MDK5.36\ARM\ARMCC\include\stdio.h)(0x60252374)
